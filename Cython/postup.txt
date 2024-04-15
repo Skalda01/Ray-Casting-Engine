@@ -1,0 +1,4 @@
+Pro sestavení knihoven je nezbytné pro každý algoritmus spustit specifický příkaz, po jehož zavolání se vytvoří knihovna s příponou .c. Tyto knihovny lze následně importovat v herním enginu:
+
+Pro DDA algoritmus použijte příkaz: python setup_DDA_cython.py build_ext --inplace
+Pro lineární algoritmus použijte příkaz: python setup_Linear_cython.py build_ext --inplace
